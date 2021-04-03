@@ -21,17 +21,43 @@ body {
 }
 
 .cards {
-  width: 327px;
-  height: 442px;
+  width: 60%;
+  height: 320px;
+  padding: 50px;
+}
+
+.cards h2 {
+  font-size: 32px;
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.cards p {
+  display: block;
+  line-height: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  height: 115px;
+}
+
+.cards button {
+  background-color: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 10px;
+  border: none;
+  width: 140px;
+  height: 45px;
+  border-radius: 20px;
 }
 
 .cards:first-child {
-  border-radius: 15px 15px 0 0;
+  border-radius: 10px 10px 0 0;
   margin-top: 87px;
 }
 
 .cards:last-child {
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 5px 5px;
   margin-bottom: 87px;
 }
 
@@ -39,11 +65,23 @@ body {
   background-color: #e38826;
 }
 
+.sedans button {
+  color: #e38826;
+}
+
 .suvs {
   background-color: #006970;
 }
 
+.suvs button {
+  color: #006970;
+}
+
 .luxury {
   background-color: #004241;
+}
+
+.luxury button {
+  color: #004241;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -7,7 +7,7 @@ $very-dark-cyan: hsl(179, 100%, 13%);
 $font-titile:'Big Shoulders Display', cursive;
 $font-description: 'Lexend Deca', sans-serif;
 
-$parrafos: hsla(0, 0%, 100%, 0.75);
+$paragraphs: hsla(0, 0%, 100%, 0.75);
 $buttons-text: hsl(0, 0%, 95%);
 
 body{
@@ -25,27 +25,60 @@ body{
 }
 
 .cards{
-    width: 327px;
-    height: 442px;
+    width: 60%;
+    height: 320px;
+    padding: 50px;
+
+    h2{
+        font-size: 32px;
+        font-family: $font-titile;
+        color: $buttons-text;
+        text-transform: uppercase;
+    }
+    p{
+        display: block;
+        line-height: 1.5rem;
+        font-family: $font-description;
+        color: $paragraphs;
+        height: 115px;
+    }
+    button{
+        background-color: $buttons-text;
+        font-family: $font-description;
+        margin-top: 10px;
+        border: none;
+        width: 140px;
+        height: 45px;
+        border-radius: 20px;
+    }
     
 }
 
 .cards:first-child{
-    border-radius: 15px 15px 0 0;
+    border-radius: 10px 10px 0 0;
     margin-top: 87px;
 }
 
 .cards:last-child{
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 5px 5px;
     margin-bottom: 87px;
 }
 
 .sedans{
     background-color: $bright-orange;
+    button{
+        color: $bright-orange;
+    }
 }
 .suvs{
     background-color: $dark-cyan;
+    button{
+        color: $dark-cyan;
+    }
 }
 .luxury{
     background-color: $very-dark-cyan;
+    button{
+        color: $very-dark-cyan;
+    }
 }
