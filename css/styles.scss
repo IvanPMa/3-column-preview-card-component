@@ -8,8 +8,44 @@ $font-titile:'Big Shoulders Display', cursive;
 $font-description: 'Lexend Deca', sans-serif;
 
 $parrafos: hsla(0, 0%, 100%, 0.75);
-$buttons-text: hsl(0, 0%, 95%):
+$buttons-text: hsl(0, 0%, 95%);
 
 body{
     font-size: 15px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cards{
+    width: 327px;
+    height: 442px;
+    
+}
+
+.cards:first-child{
+    border-radius: 15px 15px 0 0;
+    margin-top: 87px;
+}
+
+.cards:last-child{
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 87px;
+}
+
+.sedans{
+    background-color: $bright-orange;
+}
+.suvs{
+    background-color: $dark-cyan;
+}
+.luxury{
+    background-color: $very-dark-cyan;
 }
